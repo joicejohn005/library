@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1b</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+    body{
+        background-color: silver;
+    }
+ #nav1{
+        
+        background-color: rgb(13, 13, 233);
+        color: mintcream;
+    }
+    .navbar{
+        margin-bottom: 0px;
+        background-color: rgb(12, 12, 211) ;
+    }
+#header1{
+        background: navy;
+        color: oldlace;
+        font-family: monospace;
+        height: 150px;
+        padding-top: 25px;
+        text-align: justify;
+    }
+    #div2{
+        background-image: url("img1.jpg");
+        background-size: cover;
+        margin-top: -35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    #usname{
+        text-align: center;
+        font-family: monospace;
+        font: medium;
+        /*padding-left: 40%;
+        padding-right: 40%;*/
+    }
+    #div3{
+        text-align: center;
+        padding-top: 0px;
+       
+    }
+    #ip1{
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #bt1{
+        float: right;    
+    }
+</style>
+<body>
+    <nav class="navbar navbar-default" id="nav1">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="library.html">Home</a></li>
+            <li class="active"><a href="#">Library</a></li>
+            <li class="active"><a href="#">Contact US</a></li>
+            <li class="active"><a href="lib_login.html">Login</a></li>
+            <li class="active"><a href="register.html">Register</a></li>
+          </ul>
+        </div>
+    </nav>
+      <header>
+        <div class="containerfluid" id="header1">
+            <h1>📖Library </h1>          
+        </div>
+      </header>
+      
+      <div class="" id="div2">
+        <div id="div3">
+            <h2><i><b>Login</b></i></h2>
+          </div>
+        <div class="row" id="usname">
+           
+            <div class="col-md-12" >
+                <input type="text" placeholder="Enter Username" id="ip1"><br><br>
+            </div>
+        </div>
+        <div class="row" id="usname">
+            <div class="col-md-12" >
+                <input type="password" placeholder="Enter your password" id="ip1"><br><br>
+            </div>
+        </div>
+        <input type="checkbox" value="catche"><b>I'm not Robot!</b>
+
+        <div >
+            <input type= "reset" value="Reset">
+            <button type="button" class="btn btn-info" id="bt1"><i class=""></i>Login</button>
+        </div>
+
+      </div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+    body{
+        background-color: silver;
+    }
+    #nav1{
+        
+        background-color: rgb(13, 13, 233);
+        color: mintcream;
+    }
+    #header1{
+        background: navy;
+        color: oldlace;
+        font-family: monospace;
+        height: 150px;
+        padding-top: 25px;
+        text-align: justify;
+    }
+    .navbar{
+        margin-bottom: 0px;
+        background-color: rgb(75, 75, 223) ;
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: seashell;
+    background-color: rgb(34, 34, 230);
+    font-family: fantasy;
+    }
+    #l1{
+        font-family: fantasy;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    #div2{
+        background-color: snow;
+        margin-top: -40px;
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+    #div4{
+        padding-left: 20px;
+    }
+
+    img{
+        border-radius: 50%;
+        width: 90px;
+        height: 80px;
+    }
+    #bt1{
+        size: small;
+        padding-left: 5px;
+        padding-top: 5px;
+    }
+    #bt2{
+        float: right;
+    }
+   #footer{
+       padding-bottom: 10px;
+   }
+   .row{
+       pad
+       padding-bottom: 10px;
+   }
+   #imgid{
+       padding-left: 5px;
+   }
+</style>
+
+<body>
+    <nav class="navbar navbar-default" id="nav1">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="library.html">Home</a></li>
+            <li class="active"><a href="#">Library</a></li>
+            <li class="active"><a href="#">Contact US</a></li>
+            <li class="active"><a href="lib_login.html">Login</a></li>
+            <li class="active"><a href="register.html">Register</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="containerfluid" id="header1">
+            <h1>📖Library</h1>            
+        </div>
+    </header>
+
+    <div class="container" id="div2">
+
+        <div class="row">
+            <img src="img1.jpg" alt="" id="imgid">
+            <label><b>Repurpose content to reach a wider audience</b></label><br>
+            <button type="button" class="btn btn-secondary" id="bt1"><a href="#" id="bt1"><b>97thfloor.com</b></a></button><br>
+            <u><h6>2 hours ago . <a href="#">Read More</a> </h6></u>
+        </div>
+
+        <div class="row">
+            <img src="img2.jpg" alt="" id="imgid">
+            <div id="div4">
+                <label><b>14 Useful Sites for Designers </b></label><br>
+                <button type="button" class="btn btn-secondary" id="bt1"><a href="#"><b>devgaraga.com</b></a> </button><br>
+                <u><h6>yesterday . <a href="#">Read More</a> </h6></u>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="img3.jpg" alt="" id="imgid">
+            <label><b>Measuring Your Link Building with Google Analytics</b></label><br>
+            <button type="button" class="btn btn-secondary" id="bt1"><a href="#"><b>searchenginewatch.com</a></b> </button><br>
+            <u><h6>yesterday . <a href="#">Read More</a> </h6></u>
+        </div>
+
+        <button type="button" class="btn btn-primary" id="bt2">More<i class=""></i></button>
+
+    </div>
+    <footer class="container" id="footer">
+        <label id="l1">follow us on</label><br>
+        <button type="button" class="btn btn-info"><i class=""></i>Twitter</button>
+        <!-- add i class -->
+        <button type="button" class="btn btn-primary"><i class=""></i>Facebookr</button>
+        <button type="button" class="btn btn-danger"><i class=""></i>Google</button>
+    </footer>
+</body>
+</html>

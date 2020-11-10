@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1c</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+    body{
+        background-color: silver;
+    }
+ #nav1{
+        
+        background-color: rgb(13, 13, 233);
+        color: mintcream;
+    }
+    .navbar{
+        margin-bottom: 0px;
+        background-color: rgb(12, 12, 211) ;
+    }
+#header1{
+        background: navy;
+        color: oldlace;
+        font-family: monospace;
+        height: 150px;
+        padding-top: 25px;
+        text-align: justify;
+    }
+    #div2{
+        background-image: url("img4.jpg");
+        background-size: cover;
+        margin-top: -35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #usname{
+        text-align: center;
+        font-family: monospace;
+        font: medium;
+        /*padding-left: 40%;
+        padding-right: 40%;*/
+    }
+    #div3{
+        text-align: center;
+        padding-top: 0px;
+       
+    }
+    #ip1{
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #bt1{
+        float: right;    
+    }
+</style>
+<body>
+    <nav class="navbar navbar-default" id="nav1">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="library.html">Home</a></li>
+            <li class="active"><a href="#">Library</a></li>
+            <li class="active"><a href="#">Contact US</a></li>
+            <li class="active"><a href="lib_login.html">Login</a></li>
+            <li class="active"><a href="register.html">Register</a></li>
+          </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="containerfluid" id="header1">
+            <h1>📖Library </h1>          
+        </div>
+    </header>
+      
+    <div class="" id="div2">
+        <div id="div3">
+            <h2><i><b>Register Now</b></i></h2><br>
+        </div>
+
+        <div class="row" id="usname">
+            <div class="col-md-6" >
+                <label>Name</label>
+            </div>
+            <div class="col-md-3">
+                <input type="text" placeholder="Enter Fullname" id="ip1"><br><br>
+            </div>
+        </div>
+
+        <div class="row" id="usname">
+            <div class="col-md-6" >
+                <label>Date of Birth</label>
+            </div>
+            <div class="col-md-3">
+                <input type="date" placeholder="Your DOB" id="ip1"><br><br>
+            </div>
+        </div>
+
+        <div class="row" id="usname">
+            <div class="col-md-6">
+                <label>Gender</label>
+            </div>
+            <div class="col-md-2">
+                <input type="radio" name="gender" value="male" class="col-md-3">Male <br>
+                <input type="radio" name="gender" value="male" class="col-md-3" >Female <br>
+                <input type="radio" name="gender" value="male" class="col-md-3">Other <br>
+            </div>
+        </div>
+
+        <div class="row" id="usname">
+            <div class="col-md-6">
+                <label>Profession</label>
+            </div>
+            <div class="col-md-6">
+                <select name="profession" id="" class="col-md-3">
+                    <option value="" >Select</option>
+                    <option value="">Student</option>
+                    <option value="">Employee</option>
+                    <option value="">Unemployee</option>
+                    <option value="">Teacher</option>
+                   
+                </select>
+            </div>
+        </div>
+
+        <div class="row" id="usname">
+            <div class="col-md-6" >
+                <label>Place</label>
+            </div>
+            <div class="col-md-3">
+                <input type="text" placeholder="Your Place" id="ip1"><br><br>
+            </div>
+        </div>
+
+        <div class="row" id="usname">
+            <div class="col-md-6" >
+                <label>Contact number</label>
+            </div>
+            <div class="col-md-3">
+                <input type="number" placeholder="Your phone number" id="ip1"><br><br>
+            </div>
+        </div>
+
+        <div class="row" id="usname">
+            <div class="col-md-6" >
+                <label>Passwordr</label>
+            </div>
+            <div class="col-md-3">
+                <input type="password" placeholder="Enter your password" id="ip1"><br><br>
+            </div>
+            <div class="col-md-3" >
+                <input type="text" placeholder="Renter your password" id="ip1"><br><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container">
+            <input type="checkbox" value="catche"><b>Agreed <a href="#">Terms and Comdition </a> </b>
+        </div>
+
+        <div class="col-md-12">
+            <button type="reset" class="btn btn-secondary">Reset</button>
+            <button type="button" class="btn btn-info" id="bt1"><i class=""></i>Login</button>
+        </div>
+    </div>     
+</body>
+</html>
